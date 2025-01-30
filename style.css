@@ -1,0 +1,52 @@
+body{
+    margin: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    background-image: url(https://ratu.ai/wp-content/uploads/2024/04/biografi-oasis.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0,0,0,1);
+    width: 100%;
+}
+nav a{
+    margin: 0px 15px;
+    font-size: 1.1em;
+    color: #333;
+    transition: color 0.3 ease;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+nav a:hover{
+    background-color: grey;
+    box-shadow: wheat;
+    transition: 1s;
+}
+nav a i{
+    margin-right: 5px;
+}
+.fa-home{
+    color:#8398f8
+}
+.fa-image{
+    color:#279cf0
+}
+.fa-music{
+    color: #1e767b;
+}
+.fa-ticket-alt{
+    color:#01918b;
+}
+.fa-info-circle{
+    color: #00f5cb;
+}
